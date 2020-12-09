@@ -49,6 +49,8 @@ column -t -s $'\t' myproteinbatch.txt.species.tre.geneCount.txt | less -S
 
 java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar -b myproteinbatch.txt --root --speciestag prefix --savepng --treestats --events --phylogenomics
 
+java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar -b myproteinbatch.txt --rearrange --speciestag prefix  --savepng --treestats --events  --outputdir mygenereconcilerearrange --edgeweights name --threshold 90
+
 cp ~/labs/lab5/lab5-djgardner030298/XP_032224579.1.blastp.detail.filtered.fas .
 
 nano XP_032224579.1.blastp.detail.filtered.ren.fas
