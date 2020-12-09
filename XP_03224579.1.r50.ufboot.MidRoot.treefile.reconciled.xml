@@ -1,0 +1,253 @@
+<recPhylo>
+  <spTree>
+    <phylogeny>
+      <clade>
+        <name>Eumetazoa</name>
+        <clade>
+          <name>Bilateria</name>
+          <clade>
+            <name>Deuterostomia</name>
+            <clade>
+              <name>Strongylocentrotus_purpuratus</name>
+            </clade>
+            <clade>
+              <name>Homo_sapiens</name>
+            </clade>
+          </clade>
+          <clade>
+            <name>Drosophila_melanogaster</name>
+          </clade>
+        </clade>
+        <clade>
+          <name>Cnidaria</name>
+          <clade>
+            <name>Pocillopora_damicornis</name>
+          </clade>
+          <clade>
+            <name>Nematostella_vectensis</name>
+          </clade>
+        </clade>
+      </clade>
+    </phylogeny>
+  </spTree>
+  <recGeneTree>
+    <phylogeny rooted="true">
+      <clade>
+        <name>n70</name>
+        <confidence>1.0</confidence>
+        <branch_length>1.0</branch_length>
+        <eventsRec>
+          <duplication speciesLocation="Eumetazoa"></duplication>
+        </eventsRec>
+        <clade>
+          <name>n62</name>
+          <confidence>1.0</confidence>
+          <branch_length>1.425766977</branch_length>
+          <eventsRec>
+            <speciation speciesLocation="Eumetazoa"></speciation>
+          </eventsRec>
+          <clade>
+            <name>n50</name>
+            <confidence>1.0</confidence>
+            <branch_length>0.583780863</branch_length>
+            <eventsRec>
+              <speciation speciesLocation="Cnidaria"></speciation>
+            </eventsRec>
+            <clade>
+              <name>n48</name>
+              <confidence>1.0</confidence>
+              <branch_length>0.211447849</branch_length>
+              <eventsRec>
+                <duplication speciesLocation="Nematostella_vectensis"></duplication>
+              </eventsRec>
+              <clade>
+                <name>Nematostella_vectensis_XP_032237203.1</name>
+                <confidence>1.0</confidence>
+                <branch_length>0.0020236276</branch_length>
+                <eventsRec>
+                  <leaf speciesLocation="Nematostella_vectensis" geneName="Nematostella_vectensis_XP_032237203.1"></leaf>
+                </eventsRec>
+              </clade>
+              <clade>
+                <name>Nematostella_vectensis_XP_032224579.1</name>
+                <confidence>1.0</confidence>
+                <branch_length>0.0529364022</branch_length>
+                <eventsRec>
+                  <leaf speciesLocation="Nematostella_vectensis" geneName="Nematostella_vectensis_XP_032224579.1"></leaf>
+                </eventsRec>
+              </clade>
+            </clade>
+            <clade>
+              <name>Pocillopora_damicornis_A0A3M6TEN7|A0A3M6TEN7_9CNID_Uncharacterized_protein</name>
+              <confidence>1.0</confidence>
+              <branch_length>0.2546701277</branch_length>
+              <eventsRec>
+                <leaf speciesLocation="Pocillopora_damicornis" geneName="Pocillopora_damicornis_A0A3M6TEN7|A0A3M6TEN7_9CNID_Uncharacterized_protein"></leaf>
+              </eventsRec>
+            </clade>
+          </clade>
+          <clade>
+            <name>n61</name>
+            <confidence>1.0</confidence>
+            <branch_length>0.107003563</branch_length>
+            <eventsRec>
+              <speciation speciesLocation="Bilateria"></speciation>
+            </eventsRec>
+            <clade>
+              <name>n59</name>
+              <confidence>1.0</confidence>
+              <branch_length>0.1021537298</branch_length>
+              <eventsRec>
+                <speciation speciesLocation="Deuterostomia"></speciation>
+              </eventsRec>
+              <clade>
+                <name>n55</name>
+                <confidence>1.0</confidence>
+                <branch_length>0.1411955388</branch_length>
+                <eventsRec>
+                  <duplication speciesLocation="Homo_sapiens"></duplication>
+                </eventsRec>
+                <clade>
+                  <name>n53</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>0.0686484531</branch_length>
+                  <eventsRec>
+                    <duplication speciesLocation="Homo_sapiens"></duplication>
+                  </eventsRec>
+                  <clade>
+                    <name>Homo_sapiens_Q9BTC8|MTA3_HUMAN_Metastasis-associated_protein_MTA3</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>0.422923807</branch_length>
+                    <eventsRec>
+                      <leaf speciesLocation="Homo_sapiens" geneName="Homo_sapiens_Q9BTC8|MTA3_HUMAN_Metastasis-associated_protein_MTA3"></leaf>
+                    </eventsRec>
+                  </clade>
+                  <clade>
+                    <name>Homo_sapiens_O94776|MTA2_HUMAN_Metastasis-associated_protein_MTA2</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>0.4498975122</branch_length>
+                    <eventsRec>
+                      <leaf speciesLocation="Homo_sapiens" geneName="Homo_sapiens_O94776|MTA2_HUMAN_Metastasis-associated_protein_MTA2"></leaf>
+                    </eventsRec>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>Homo_sapiens_Q13330|MTA1_HUMAN_Metastasis-associated_protein_MTA1</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>0.2698404608</branch_length>
+                  <eventsRec>
+                    <leaf speciesLocation="Homo_sapiens" geneName="Homo_sapiens_Q13330|MTA1_HUMAN_Metastasis-associated_protein_MTA1"></leaf>
+                  </eventsRec>
+                </clade>
+              </clade>
+              <clade>
+                <name>n58</name>
+                <confidence>1.0</confidence>
+                <branch_length>0.4298175812</branch_length>
+                <eventsRec>
+                  <duplication speciesLocation="Strongylocentrotus_purpuratus"></duplication>
+                </eventsRec>
+                <clade>
+                  <name>Strongylocentrotus_purpuratus_W4XVD2|W4XVD2_STRPU_Uncharacterized_protein</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>0.0755343624</branch_length>
+                  <eventsRec>
+                    <leaf speciesLocation="Strongylocentrotus_purpuratus" geneName="Strongylocentrotus_purpuratus_W4XVD2|W4XVD2_STRPU_Uncharacterized_protein"></leaf>
+                  </eventsRec>
+                </clade>
+                <clade>
+                  <name>Strongylocentrotus_purpuratus_W4XJX9|W4XJX9_STRPU_Uncharacterized_protein</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>2.558e-06</branch_length>
+                  <eventsRec>
+                    <leaf speciesLocation="Strongylocentrotus_purpuratus" geneName="Strongylocentrotus_purpuratus_W4XJX9|W4XJX9_STRPU_Uncharacterized_protein"></leaf>
+                  </eventsRec>
+                </clade>
+              </clade>
+            </clade>
+            <clade>
+              <name>Drosophila_melanogaster_A0A0B4KG70|A0A0B4KG70_DROME_Metastasis_associated_1-like_isoform_D</name>
+              <confidence>1.0</confidence>
+              <branch_length>0.6761187937</branch_length>
+              <eventsRec>
+                <leaf speciesLocation="Drosophila_melanogaster" geneName="Drosophila_melanogaster_A0A0B4KG70|A0A0B4KG70_DROME_Metastasis_associated_1-like_isoform_D"></leaf>
+              </eventsRec>
+            </clade>
+          </clade>
+        </clade>
+        <clade>
+          <name>n69</name>
+          <confidence>1.0</confidence>
+          <branch_length>1.101249812</branch_length>
+          <eventsRec>
+            <speciation speciesLocation="Eumetazoa"></speciation>
+          </eventsRec>
+          <clade>
+            <name>n65</name>
+            <confidence>1.0</confidence>
+            <branch_length>0.6200661245</branch_length>
+            <eventsRec>
+              <speciation speciesLocation="Cnidaria"></speciation>
+            </eventsRec>
+            <clade>
+              <name>Pocillopora_damicornis_A0A3M6TWH6|A0A3M6TWH6_9CNID_Uncharacterized_protein</name>
+              <confidence>1.0</confidence>
+              <branch_length>0.1841351165</branch_length>
+              <eventsRec>
+                <leaf speciesLocation="Pocillopora_damicornis" geneName="Pocillopora_damicornis_A0A3M6TWH6|A0A3M6TWH6_9CNID_Uncharacterized_protein"></leaf>
+              </eventsRec>
+            </clade>
+            <clade>
+              <name>Nematostella_vectensis_XP_001637021.2</name>
+              <confidence>1.0</confidence>
+              <branch_length>0.3925564044</branch_length>
+              <eventsRec>
+                <leaf speciesLocation="Nematostella_vectensis" geneName="Nematostella_vectensis_XP_001637021.2"></leaf>
+              </eventsRec>
+            </clade>
+          </clade>
+          <clade>
+            <name>r27</name>
+            <confidence>1.0</confidence>
+            <branch_length>1.0</branch_length>
+            <eventsRec>
+              <speciation speciesLocation="Bilateria"></speciation>
+            </eventsRec>
+            <clade>
+              <name>n68</name>
+              <confidence>1.0</confidence>
+              <branch_length>0.4125451802</branch_length>
+              <eventsRec>
+                <speciation speciesLocation="Deuterostomia"></speciation>
+              </eventsRec>
+              <clade>
+                <name>Strongylocentrotus_purpuratus_W4YDH4|W4YDH4_STRPU_Uncharacterized_protein</name>
+                <confidence>1.0</confidence>
+                <branch_length>0.7808707817</branch_length>
+                <eventsRec>
+                  <leaf speciesLocation="Strongylocentrotus_purpuratus" geneName="Strongylocentrotus_purpuratus_W4YDH4|W4YDH4_STRPU_Uncharacterized_protein"></leaf>
+                </eventsRec>
+              </clade>
+              <clade>
+                <name>Homo_sapiens_Q9P2R6|RERE_HUMAN_Arginine-glutamic_acid_dipeptide_repeats_protein</name>
+                <confidence>1.0</confidence>
+                <branch_length>0.5243555122</branch_length>
+                <eventsRec>
+                  <leaf speciesLocation="Homo_sapiens" geneName="Homo_sapiens_Q9P2R6|RERE_HUMAN_Arginine-glutamic_acid_dipeptide_repeats_protein"></leaf>
+                </eventsRec>
+              </clade>
+            </clade>
+            <clade>
+              <name>Drosophila_melanogaster*LOST</name>
+              <confidence>1.0</confidence>
+              <branch_length>1.0</branch_length>
+              <eventsRec>
+                <loss speciesLocation="Drosophila_melanogaster"></loss>
+              </eventsRec>
+            </clade>
+          </clade>
+        </clade>
+      </clade>
+    </phylogeny>
+  </recGeneTree>
+</recPhylo>
